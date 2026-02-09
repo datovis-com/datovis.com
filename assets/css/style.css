@@ -20,7 +20,7 @@
     --color-bg: #fff;
     --color-border: #e0e0e0;
     --max-width: 42rem;
-    --spacing: 1.5rem;
+    --spacing: 1.25rem;
 }
 
 *,
@@ -63,12 +63,12 @@ a:hover {
 }
 
 header {
-    padding: calc(var(--spacing) * 2) 0 var(--spacing);
+    padding: var(--spacing) 0 calc(var(--spacing) * 0.5);
 }
 
 main {
     flex: 1;
-    padding: var(--spacing) 0 calc(var(--spacing) * 3);
+    padding: var(--spacing) 0 calc(var(--spacing) * 2);
 }
 
 footer {
@@ -111,13 +111,13 @@ h1 {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.2;
-    margin: calc(var(--spacing) * 2) 0 var(--spacing);
+    margin: var(--spacing) 0 calc(var(--spacing) * 0.5);
 }
 
 h2 {
     font-size: 1.25rem;
     font-weight: 700;
-    margin: calc(var(--spacing) * 2) 0 var(--spacing);
+    margin: var(--spacing) 0 calc(var(--spacing) * 0.5);
 }
 
 p {
@@ -128,13 +128,13 @@ p {
 .tagline {
     font-size: 1.25rem;
     color: var(--color-text-light);
-    margin-bottom: calc(var(--spacing) * 2);
+    margin-bottom: var(--spacing);
 }
 
 .services {
     list-style: none;
     padding: 0;
-    margin: 0 0 calc(var(--spacing) * 2);
+    margin: 0 0 var(--spacing);
 }
 
 .services li {
@@ -170,7 +170,7 @@ p {
 /* Responsive */
 @media (max-width: 600px) {
     :root {
-        --spacing: 1.25rem;
+        --spacing: 1rem;
     }
 
     body {
