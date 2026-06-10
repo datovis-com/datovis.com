@@ -123,14 +123,15 @@ p {
 }
 
 /* Homepage specifics */
-.tagline {
+p.tagline {
     font-size: 1.5rem;
     color: var(--color-text-light);
     margin-bottom: var(--spacing);
 }
 
-.title {
-    font-size: 3rem;
+h1.title {
+    font-size: 2.5rem;
+    font-kerning: normal;
     margin-bottom: 0;
     margin-top: var(--spacing);
     text-transform: uppercase;
