@@ -66,6 +66,7 @@ header {
 
 main {
     padding: var(--spacing) 0 calc(var(--spacing) * 2);
+    padding-top: 0;
 }
 
 footer {
@@ -123,9 +124,16 @@ p {
 
 /* Homepage specifics */
 .tagline {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--color-text-light);
     margin-bottom: var(--spacing);
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: var(--spacing);
+    text-transform: uppercase;
 }
 
 .services {
